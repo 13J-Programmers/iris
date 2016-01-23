@@ -5,4 +5,7 @@ set -e
 npm install
 export PATH="node_modules/.bin:node_modules/hubot/node_modules/.bin:$PATH"
 
+# user definition
+export HUBOT_GITHUB_REPO="13J-Programmers/4J-class-project"
+
 exec node_modules/.bin/hubot --name "iris" "$@"
