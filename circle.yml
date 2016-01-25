@@ -1,6 +1,6 @@
 deployment:
   staging:
-    branch: master
+    branch: release
     heroku:
       appname: mysterious-cove-5536
 
